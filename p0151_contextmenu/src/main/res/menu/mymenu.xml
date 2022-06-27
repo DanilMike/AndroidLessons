@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_Red"
+        android:title="Red">
+    </item>
+    <item
+        android:id="@+id/menu_Green"
+        android:title="Green">
+    </item>
+    <item
+        android:id="@+id/menu_Blue"
+        android:orderInCategory="1"
+        android:title="Blue">
+    </item>
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_22"
+            android:orderInCategory="1"
+            android:title="22">
+        </item>
+        <item
+            android:id="@+id/menu_36"
+            android:orderInCategory="2"
+            android:title="36">
+        </item>
+        <item
+            android:id="@+id/menu_30"
+            android:orderInCategory="3"
+            android:title="30">
+        </item>
+    </group>
+</menu>
