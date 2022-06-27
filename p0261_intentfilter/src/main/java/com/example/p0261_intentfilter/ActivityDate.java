@@ -15,6 +15,7 @@ public class ActivityDate extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.date);
 
+        // тест
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
         String date = sdf.format(new Date(System.currentTimeMillis()));
 
